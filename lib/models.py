@@ -10,7 +10,7 @@ class Task:
             print(f"⚠️ Task '{self.title}' is already completed.")
         else:
             self.completed = True
-            print(f"✅ Task '{self.title}' marked as completed.")
+            print(f"✅ Task '{self.title}' completed.")
 
     def __str__(self):
         status = "✔" if self.completed else "✘"
